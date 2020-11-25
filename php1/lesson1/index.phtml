@@ -8,12 +8,7 @@ $aMenu = [
  ['contact', 'Связь'],
 ];
 foreach($aMenu AS list($dir, $name)){
- $menu .= <<<HD
-<li>
- <a href="/{$dir}">{$name}</a>
-</li>
-
-HD;
+ $menu .= "<li><a href="/{$dir}">{$name}</a></li>";
 }
 ?><!DOCTYPE html>
 <html lang="ru">
