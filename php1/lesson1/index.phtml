@@ -1,16 +1,16 @@
 <?php
-$_title = 'Главная страница < ' . $_SERVER['HTTP_HOST'];
-$_h1 = 'Текущий год ' . date('Y');
+$title = 'Главная страница < ' . $_SERVER['HTTP_HOST'];
+$h1 = date('Y') . ' подходит к концу';
 
-$_aMenu = Array(
- Array('home', 'Главная'),
- Array('archive', 'Хранилище'),
- Array('contact', 'Связь')
-);
-foreach($_aMenu AS $v){
- $_menu .= <<<HD
+$aMenu = [
+ ['home', 'Главная'],
+ ['archive', 'Хранилище'],
+ ['contact', 'Связь'],
+];
+foreach($aMenu AS list($dir, $name)){
+ $menu .= <<<HD
 <li>
- <a href="/{$v[0]}">{$v[1]}</a>
+ <a href="/{$dir}">{$name}</a>
 </li>
 
 HD;
@@ -27,12 +27,12 @@ HD;
 
   <link rel="stylesheet" href="css/main.css" type="text/css" />
 
-  <title><?=$_title?></title>
+  <title><?=$title?></title>
  </head>
  <body>
   <div id="content">
-   <h1><?=$_h1?></h1>
-   <ul id="menu"><?=$_menu?></ul>
+   <h1><?=$h1?></h1>
+   <ul id="menu"><?=$menu?></ul>
  
    <div class="post">
     <div class="details">
