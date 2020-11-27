@@ -1,14 +1,25 @@
+<?php 
+    $_title="minimalistica";
+    $_h1="minimalistica"; 
+    $_year=date('Y');
+ 
+    ?>
+ 
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="author" content="Luka Cvrk (www.solucija.com)" />
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
-	<title></title>
+	<title><?= $_title?></title>;
+	
 </head>
 <body>
+
 	<div id="content">
-		<h1><?php </h1>
+		<h1><?= $_h1?></h1>
 		
 		<ul id="menu">
 			<li><a href="#">home</a></li>
@@ -45,7 +56,7 @@
 		</div>
 		
 		<div id="footer">
-		      <p>Copyright &copy; <em>minimalistica</em> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
+			<p>Copyright &copy; <?=$_year; ?> ><em>minimalistica</em> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
 		</div>	
 	</div>
 </body>
