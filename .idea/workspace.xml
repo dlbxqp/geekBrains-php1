@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffc2a023-2e76-42dc-9546-2b504961a137" name="Default Changelist" comment="Удалил файл &quot;дополнительного задания&quot; ибо он относится к первой ДоЗе.">
+      <change afterPath="$PROJECT_DIR$/php1/lesson4/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson1/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson4/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson1/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/dlbxqp/geekBrains-php1" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kjnzhqoRNrGJzUjnZvBTAN4lDq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson4" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\User1\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffc2a023-2e76-42dc-9546-2b504961a137" name="Default Changelist" comment="" />
+      <created>1606223135965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606223135965</updated>
+      <workItem from="1606223137546" duration="13077000" />
+      <workItem from="1606379641442" duration="203000" />
+      <workItem from="1606461454727" duration="14530000" />
+      <workItem from="1606721962476" duration="591000" />
+      <workItem from="1606734298956" duration="598000" />
+      <workItem from="1606893824592" duration="2057000" />
+      <workItem from="1606896181405" duration="5685000" />
+      <workItem from="1607002581246" duration="5549000" />
+      <workItem from="1607182407143" duration="6262000" />
+    </task>
+    <task id="LOCAL-00001" summary="Попытка связать PHPStorm с gitHub #1">
+      <created>1606289670506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606289670506</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Попытка связать PHPStorm с gitHub #2">
+      <created>1606289787950</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606289787950</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Попытка связать PHPStorm с gitHub #3">
+      <created>1606290123384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606290123384</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Додумал вариант решения задачи с переменными и изменил его">
+      <created>1606294085313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606294085313</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Основное задание">
+      <created>1606489541511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606489541511</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Удалил файл &quot;дополнительного задания&quot; ибо он относится к первой ДоЗе.">
+      <created>1606489675242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606489675242</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Попытка связать PHPStorm с gitHub #1" />
+    <MESSAGE value="Попытка связать PHPStorm с gitHub #2" />
+    <MESSAGE value="Попытка связать PHPStorm с gitHub #3" />
+    <MESSAGE value="Додумал вариант решения задачи с переменными и изменил его" />
+    <MESSAGE value="Основное задание" />
+    <MESSAGE value="Удалил файл &quot;дополнительного задания&quot; ибо он относится к первой ДоЗе." />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалил файл &quot;дополнительного задания&quot; ибо он относится к первой ДоЗе." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="591" y="187" key="FileChooserDialogImpl" timestamp="1606287940750">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="591" y="187" key="FileChooserDialogImpl/0.0.1474.864/-322.-1080.2560.1080@0.0.1474.864" timestamp="1606287940750" />
+    <state x="647" y="355" key="NewPhpFileDialog" timestamp="1606228579341">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="647" y="355" key="NewPhpFileDialog/0.0.1474.864/-322.-1080.2560.1080@0.0.1474.864" timestamp="1606228579341" />
+    <state x="320" y="77" key="SettingsEditor" timestamp="1606289627410">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="320" y="77" key="SettingsEditor/0.0.1474.864/-322.-1080.2560.1080@0.0.1474.864" timestamp="1606289627410" />
+    <state x="404" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606489677494">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="404" y="165" key="Vcs.Push.Dialog.v2/0.0.1474.864/-322.-1080.2560.1080@0.0.1474.864" timestamp="1606489677494" />
+    <state x="394" y="197" key="run.anything.popup" timestamp="1606487518547">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="394" y="197" key="run.anything.popup/0.0.1474.864/-322.-1080.2560.1080@0.0.1474.864" timestamp="1606487518547" />
+    <state x="475" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1606900113893">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="475" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1474.864/-322.-1080.2560.1080@0.0.1474.864" timestamp="1606489444639" />
+    <state x="475" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1606900113893" />
+  </component>
+</project>
