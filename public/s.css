@@ -1,0 +1,17 @@
+Header{
+ background-color: rgba(0, 0, 0, 0.08)
+}
+
+Header > Menu{
+ display: flex; justify-content: center;
+ list-style-type: none
+}
+
+Header > Menu Li{
+ padding: 10px 20px
+}
+
+Header > Menu A{
+ color: royalblue;
+ text-decoration: none
+}
