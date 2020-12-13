@@ -1,0 +1,30 @@
+Section{
+ width: 100%
+}
+
+
+Section > Form{
+ background-color: rgba(200, 100, 0, 0.08);
+ padding: 40px
+}
+
+Section > Form > *{
+ margin-bottom: 2px
+}
+
+
+Section > Div{
+ display: flex; flex-direction: column;
+}
+
+Section > Div > Div{
+ display: flex; justify-content: space-between;
+ padding: 10px
+}
+Section > Div > Div:nth-of-type(odd){
+ background-color: rgba(0, 100, 200, 0.08)
+}
+
+Section > Div > Div > Div{
+}
+
