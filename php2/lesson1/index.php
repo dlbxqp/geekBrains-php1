@@ -1,43 +1,58 @@
 <?php
 
 class Offer{
- private $title;
- private $price;
+ static $title;
+ static $price;
+
+ static function getTitle(){
+  echo 'Наименование: ' . self::$title;
+ }
+ static function getPrice(){
+  echo 'Стоимость: ' . self::$price;
+ }
+
+ public function __construct($title, $price){
+  self::$title = $title;
+  self::$price = $price;
+
+  echo "<br>";
+  self::getTitle();
+  echo " - ";
+  self::getPrice();
+  echo "$";
+ }
+}
+class Package extends Offer{
  private $width;
  private $height;
  private $depth;
  private $weight;
 
- private function getTitle(){
-  echo 'Наименование: ' . $this->title;
- }
- private function getPrice(){
-  echo 'Стоиомсть: ' . $this->price;
- }
  private function getSize(){
   echo 'Размер и вес упаковки: ' . $this->width . 'x' . $this->height . 'x' . $this->depth . '(' . $this->weight . ')';
  }
 
  public function __construct($title, $price, $width, $height, $depth, $weight){
-  $this->title = $title;
-  $this->price = $price;
+  parent::$title = $title;
+  parent::$price = $price;
   $this->width = $width;
   $this->height = $height;
   $this->depth = $depth;
   $this->weight = $weight;
 
-  $this->getTitle();
-  echo "|";
-  $this->getPrice();
-  echo "|";
-  $this->getSize();
+
   echo "<br>";
+  parent::getTitle();
+  echo " - ";
+  parent::getPrice();
+  echo "$ > ";
+  $this->getSize();
  }
 }
 
-$o1 = new Offer('Пылесос', 10000, 101, 302, 203, 5);
-$o1 = new Offer('Холодильник', 100000, 201, 202, 303, 4);
-$o1 = new Offer('Табурет', 1000, 301, 102, 103, 3);
+$o1 = new Offer('Пылесос', 10000);
+$o1 = new Package('Холодильник', 100000, 201, 202, 303, 4);
+$o1 = new Package('Табурет', 1000, 301, 102, 103, 3);
 
 echo "<hr>";
 
