@@ -9,8 +9,6 @@
    у весового – в зависимости от продаваемого количества в килограммах.
    У всех формируется в конечном итоге доход с продаж.
 д) Что можно вынести в абстрактный класс, наследование?
-
-2. *Реализовать паттерн Singleton при помощи traits.
 */
 
 abstract class Offer{
@@ -84,3 +82,15 @@ class WeightOffer extends Offer{
 }
 $weightOffer = new WeightOffer('картоха', 60, 10);
 echo $weightOffer->calculationOfTotalCost();
+
+
+/* 2. *Реализовать паттерн Singleton при помощи traits. */
+trait SingletonTrait{
+ private static $instances = [];
+
+ public static function single(){
+  (!isset(self::$instances[static::class])) && (self::$instances[static::class] = new static);
+
+  return self::$instances[static::class];
+ }
+}
