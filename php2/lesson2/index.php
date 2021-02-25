@@ -86,7 +86,7 @@ class WeightOffer extends Offer{
  }
 
  function calculationOfTotalCost(){
-  parent::$totalCost = parent::PRICE * parent::$quantityORWeight;
+  parent::$totalCost = (parent::PRICE / 2) * parent::$quantityORWeight;
 
   return "Итоговая стоимость " .
    parent::$quantityORWeight .
