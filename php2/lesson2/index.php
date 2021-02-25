@@ -60,14 +60,14 @@ class DigitalOffer extends Offer{
  }
 
  function calculationOfTotalCost(){
-  parent::$totalCost = (parent::PRICE * parent::$quantityORWeight) / 2;
+  parent::$totalCost = (parent::PRICE / 2) * parent::$quantityORWeight;
 
   return "Итоговая стоимость " .
    parent::$quantityORWeight .
    " копий товара с наименованием '" .
    parent::$title .
    "' по цене " .
-   parent::PRICE .
+   (parent::PRICE / 2) .
    " руб/копия, обойдётся Вам в " .
    parent::$totalCost .
    " рублей.<br>" .
@@ -86,14 +86,14 @@ class WeightOffer extends Offer{
  }
 
  function calculationOfTotalCost(){
-  parent::$totalCost = (parent::PRICE / 2) * parent::$quantityORWeight;
+  parent::$totalCost = parent::PRICE * parent::$quantityORWeight;
 
   return "Итоговая стоимость " .
    parent::$quantityORWeight .
    " кг товара с наименованием '" .
    parent::$title .
    "' по цене " .
-   (parent::PRICE / 2) .
+   parent::PRICE .
    " руб/кг, обойдётся Вам в " .
    parent::$totalCost .
    " рублей.<br>" .
