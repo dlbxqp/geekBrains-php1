@@ -13,17 +13,16 @@
 
 abstract class Offer{
  static $title;
- static $price;
  static $quantityORWeight;
  static $totalCost;
+ const PRICE = 123;
  const PROFIT = 50;
 
  abstract function calculationOfTotalCost();
  abstract function calculationOfProfit($totalCost);
 
- public function __construct($title, $price, $quantityORWeight){
+ public function __construct($title, $quantityORWeight){
   self::$title = $title;
-  self::$price = $price;
   self::$quantityORWeight = $quantityORWeight;
  }
 }
@@ -36,21 +35,21 @@ class PieceOffer extends Offer{
  }
 
  function calculationOfTotalCost(){
-  parent::$totalCost = parent::$price * parent::$quantityORWeight;
+  parent::$totalCost = parent::PRICE * parent::$quantityORWeight;
 
   return "Итоговая стоимость " .
    parent::$quantityORWeight .
    " штук товара с наименованием '" .
    parent::$title .
    "' по цене " .
-   parent::$price .
+   parent::PRICE .
    " руб/шт, обойдётся Вам в " .
    parent::$totalCost .
    " рублей.<br>" .
    self::calculationOfProfit(parent::$totalCost);
  }
 }
-$pieceOffer = new PieceOffer('шар', 123, 9);
+$pieceOffer = new PieceOffer('шар', 9);
 echo $pieceOffer->calculationOfTotalCost();
 
 class DigitalOffer extends Offer{
@@ -61,14 +60,14 @@ class DigitalOffer extends Offer{
  }
 
  function calculationOfTotalCost(){
-  parent::$totalCost = (parent::$price * parent::$quantityORWeight) / 2;
+  parent::$totalCost = (parent::PRICE * parent::$quantityORWeight) / 2;
 
   return "Итоговая стоимость " .
    parent::$quantityORWeight .
    " копий товара с наименованием '" .
    parent::$title .
    "' по цене " .
-   parent::$price .
+   parent::PRICE .
    " руб/копия, обойдётся Вам в " .
    parent::$totalCost .
    " рублей.<br>" .
@@ -76,7 +75,7 @@ class DigitalOffer extends Offer{
   ;
  }
 }
-$digitalOffer = new DigitalOffer('диск', 321, 18);
+$digitalOffer = new DigitalOffer('диск', 18);
 echo $digitalOffer->calculationOfTotalCost();
 
 class WeightOffer extends Offer{
@@ -87,22 +86,22 @@ class WeightOffer extends Offer{
  }
 
  function calculationOfTotalCost(){
-  parent::$totalCost = parent::$price * parent::$quantityORWeight;
+  parent::$totalCost = parent::PRICE * parent::$quantityORWeight;
 
   return "Итоговая стоимость " .
    parent::$quantityORWeight .
    " кг товара с наименованием '" .
    parent::$title .
    "' по цене " .
-   parent::$price .
-   " руб/копия, обойдётся Вам в " .
+   parent::PRICE .
+   " руб/кг, обойдётся Вам в " .
    parent::$totalCost .
    " рублей.<br>" .
    self::calculationOfProfit(parent::$totalCost)
   ;
  }
 }
-$weightOffer = new WeightOffer('картоха', 60, 10);
+$weightOffer = new WeightOffer('картоха', 10);
 echo $weightOffer->calculationOfTotalCost();
 
 
