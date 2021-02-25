@@ -93,7 +93,7 @@ class WeightOffer extends Offer{
    " кг товара с наименованием '" .
    parent::$title .
    "' по цене " .
-   parent::PRICE .
+   (parent::PRICE / 2) .
    " руб/кг, обойдётся Вам в " .
    parent::$totalCost .
    " рублей.<br>" .
