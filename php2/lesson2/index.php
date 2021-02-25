@@ -16,8 +16,10 @@ abstract class Offer{
  static $price;
  static $quantityORWeight;
  static $totalCost;
+ const PROFIT = 50;
 
  abstract function calculationOfTotalCost();
+ abstract function calculationOfProfit($totalCost);
 
  public function __construct($title, $price, $quantityORWeight){
   self::$title = $title;
@@ -27,6 +29,12 @@ abstract class Offer{
 }
 
 class PieceOffer extends Offer{
+ function calculationOfProfit($totalCost){
+  return "Итоговый доход с продажи: " .
+   ($totalCost / 100 * parent::PROFIT) .
+   " руб.<hr>";
+ }
+
  function calculationOfTotalCost(){
   parent::$totalCost = parent::$price * parent::$quantityORWeight;
 
@@ -38,14 +46,20 @@ class PieceOffer extends Offer{
    parent::$price .
    " руб/шт, обойдётся Вам в " .
    parent::$totalCost .
-   " рублей.<br>"
-  ;
+   " рублей.<br>" .
+   self::calculationOfProfit(parent::$totalCost);
  }
 }
 $pieceOffer = new PieceOffer('шар', 123, 9);
 echo $pieceOffer->calculationOfTotalCost();
 
 class DigitalOffer extends Offer{
+ function calculationOfProfit($totalCost){
+  return "Итоговый доход с продажи: " .
+   ($totalCost / 100 * parent::PROFIT) .
+   " руб.<hr>";
+ }
+
  function calculationOfTotalCost(){
   parent::$totalCost = (parent::$price * parent::$quantityORWeight) / 2;
 
@@ -57,14 +71,21 @@ class DigitalOffer extends Offer{
    parent::$price .
    " руб/копия, обойдётся Вам в " .
    parent::$totalCost .
-   " рублей.<br>"
-   ;
+   " рублей.<br>" .
+   self::calculationOfProfit(parent::$totalCost)
+  ;
  }
 }
 $digitalOffer = new DigitalOffer('диск', 321, 18);
 echo $digitalOffer->calculationOfTotalCost();
 
 class WeightOffer extends Offer{
+ function calculationOfProfit($totalCost){
+  return "Итоговый доход с продажи: " .
+   ($totalCost / 100 * parent::PROFIT) .
+   " руб.<hr>";
+ }
+
  function calculationOfTotalCost(){
   parent::$totalCost = parent::$price * parent::$quantityORWeight;
 
@@ -76,8 +97,9 @@ class WeightOffer extends Offer{
    parent::$price .
    " руб/копия, обойдётся Вам в " .
    parent::$totalCost .
-   " рублей.<br>"
-   ;
+   " рублей.<br>" .
+   self::calculationOfProfit(parent::$totalCost)
+  ;
  }
 }
 $weightOffer = new WeightOffer('картоха', 60, 10);
