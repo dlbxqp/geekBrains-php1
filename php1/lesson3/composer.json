@@ -1,0 +1,15 @@
+{
+ "name": "vendor_name/main.geekbrains",
+ "description": "description",
+ "minimum-stability": "stable",
+ "license": "proprietary",
+ "authors": [
+  {
+   "name": "User1",
+   "email": "email@example.com"
+  }
+ ],
+ "require": {
+   "twig/twig": "1.9.*"
+ }
+}

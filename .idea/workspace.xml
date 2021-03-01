@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63656e97-3722-45fe-abf2-31c28cb21892" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/main.geekBrains.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php2/lesson2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="c17e015f-4a7d-4bf4-b256-cbbaee0c1f2b" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="inc" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/php1/lesson3/styles" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson3\styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63656e97-3722-45fe-abf2-31c28cb21892" name="Default Changelist" comment="" />
+      <created>1614174934419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614174934419</updated>
+      <workItem from="1614174937029" duration="29695000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="317" y="95" key="#CLI_Interpreters" timestamp="1614600396230">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="317" y="95" key="#CLI_Interpreters/0.0.1474.864@0.0.1474.864" timestamp="1614600396230" />
+    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614606640589">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1474.864@0.0.1474.864" timestamp="1614606640589" />
+    <state x="588" y="344" width="445" height="278" key="ComposerInitDialogKey" timestamp="1614600399964">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="588" y="344" width="445" height="278" key="ComposerInitDialogKey/0.0.1474.864@0.0.1474.864" timestamp="1614600399964" />
+    <state x="676" y="337" key="ComposerValidateDialog" timestamp="1614599025625">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="676" y="337" key="ComposerValidateDialog/0.0.1474.864@0.0.1474.864" timestamp="1614599025625" />
+    <state x="592" y="232" key="FileChooserDialogImpl" timestamp="1614600370248">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="592" y="232" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1614600370248" />
+    <state x="547" y="155" key="NewPhpClassDialog" timestamp="1613821660772">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="547" y="155" key="NewPhpClassDialog/0.0.1474.864@0.0.1474.864" timestamp="1613821660772" />
+    <state x="647" y="355" key="NewPhpFileDialog" timestamp="1614605397449">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="647" y="355" key="NewPhpFileDialog/0.0.1474.864@0.0.1474.864" timestamp="1614605397449" />
+    <state x="320" y="77" key="SettingsEditor" timestamp="1614606187630">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="320" y="77" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1614606187630" />
+  </component>
+</project>

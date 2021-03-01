@@ -1,0 +1,11 @@
+<article>
+ <h1>{{ h1 }}</h1>
+
+ <div>
+{% for photo in photos %}
+  <a href="./?p=photo&i={{ photo }}">
+   <img src="{{ photosDir }}{{ photo }}">
+  </a>
+{% endfor %}
+ </div>
+</article>
