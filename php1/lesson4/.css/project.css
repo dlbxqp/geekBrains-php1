@@ -18,7 +18,19 @@ Body{
 
 
 Body > Main{
- display: flex; justify-content: center; align-items: center
+ display: flex; flex-direction: column; justify-content: center; align-items: center;
+ min-height: 100vh
+}
+
+Body > Main > Div{
+ display: flex; flex-wrap: wrap;
+ gap: 10px;
+ margin-bottom: 20px
+}
+Body > Main > Div > Div{
+ border: 1px solid rgba(0, 0, 0, 0.08);
+ flex-basis: calc((100% - (10px * 3)) / 4);
+ padding: 10px
 }
 
 

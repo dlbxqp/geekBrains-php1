@@ -8,13 +8,15 @@
   <meta name='theme-color' content='#404040'>
   <meta name='publisher-URL' content='/'>
 
-  <title></title>
+  <base href="/php1/lesson4/">
 
-  <link rel='shortcut icon' href='/.img/favicon.ico' type='image/x-icon'>
+  <title>ДоЗа lesson2_4</title>
 
-  <link rel='stylesheet' href='/.css/normalize.css'>
-  <link rel='stylesheet' href='/.css/main.css'>
-  <link rel='stylesheet' href='/.css/project.css'>
+  <link rel='shortcut icon' href='./.img/favicon.ico' type='image/x-icon'>
+
+  <link rel='stylesheet' href='./.css/normalize.css'>
+  <link rel='stylesheet' href='./.css/main.css'>
+  <link rel='stylesheet' href='./.css/project.css'>
 
 <!--[if IE]>
   <script>
@@ -30,11 +32,50 @@ document.createElement('menu')
 document.createElement('nav')
   </script>
 <![endif]-->
+  <script src="//cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script><!--//unpkg.com/axios/dist/axios.min.js-->
  </head>
 
  <body>
-  <main></main>
+  <main>
+   <div></div>
+   <button data-start="0">Ещё</button>
+  </main>
 
-  <script></script>
+  <script>
+const divOffers = document.querySelector('body > main > div')
+const button = document.querySelector('body > main > button')
+const count = 4
+
+const getOffers = () => {
+ axios({
+  method: 'post',
+  url: './.php/offers.php',
+  data: {
+   'start': (button.dataset.start * 1),
+   count
+  }
+ })
+ .then((response) => { console.log('response.data', response.data)
+  const cOffers = response.data.message
+  cOffers.length < count && (button.style.display = 'none')
+  Array.from(cOffers).forEach((offer) => {
+   divOffers.innerHTML += `
+<div>
+ <div>${offer[1]}</div>
+ <div>${offer[2]}</div>
+</div>
+`;
+  })
+
+  button.dataset.start = (button.dataset.start * 1) + count
+ })
+ .catch((error) => console.log(error))
+}
+button.addEventListener('click', (e) => {
+ e.preventDefault()
+ getOffers()
+})
+getOffers()
+  </script>
  </body>
 </html>
