@@ -1,1 +1,25 @@
-<?php//// Êîíòòðîëëåð ñòðàíèöû ÷òåíèÿ.//include_once('m/M_User.php');class C_User extends C_Base{	//	// Êîíñòðóêòîð.	//		public function action_auth(){		/*$this-'>title .= '::Àâòîðèçàöèÿ;        $user = new M_User();		$info = "Ïîëüçîâàòåëü íå àâòîðèçîâàí";        if($_POST){            $login = $_POST['login'];            $info = $user->auth("log","past"));		    $this->content = $this->Template('v_auth.php', array('text' => $info));		}		else{		   $this->content = $this->Template('v/v_auth.php');		}		*/		}	}
+<?php //ÐšÐ¾Ð½Ñ‚Ñ‚Ñ€Ð¾Ð»Ð»ÐµÑ€ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ Ñ‡Ñ‚ÐµÐ½Ð¸Ñ
+
+include_once('m/M_User.php');
+
+class C_User extends C_Base{
+	//
+	// ÐšÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€.
+	//
+	
+	public function action_auth(){
+/*
+  $this-'>title .= '::ÐÐ²Ñ‚Ð¾Ñ€Ð¸Ð·Ð°Ñ†Ð¸Ñ;
+        $user = new M_User();
+		$info = "ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒ Ð½Ðµ Ð°Ð²Ñ‚Ð¾Ñ€Ð¸Ð·Ð¾Ð²Ð°Ð½";
+        if($_POST){
+            $login = $_POST['login'];
+            $info = $user->auth("log","past"));
+		    $this->content = $this->Template('v_auth.php', array('text' => $info));
+		}
+		else{
+		   $this->content = $this->Template('v/v_auth.php');
+		}
+*/
+	}
+}

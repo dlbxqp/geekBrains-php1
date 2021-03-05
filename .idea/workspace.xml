@@ -20,19 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63656e97-3722-45fe-abf2-31c28cb21892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/main.geekBrains.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php2/lesson2/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/c/C_Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/c/C_Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/c/C_Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/c/C_User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/data/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/data/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/m/M_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/m/M_User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/m/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/m/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/v_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/v/v_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/v_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/v/v_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/v_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/v/v_main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="c17e015f-4a7d-4bf4-b256-cbbaee0c1f2b" />
@@ -45,10 +51,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpTemplates">
     <option name="NEW_PHP_FILE_LAST_EXTENSION" value="inc" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1pLTji50aVDmdUCjwp8aZyQR54w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,14 +74,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson5" />
+      <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson4" />
       <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson3\styles" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson3" />
-    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="63656e97-3722-45fe-abf2-31c28cb21892" name="Default Changelist" comment="" />
@@ -78,8 +92,12 @@
       <option name="presentableId" value="Default" />
       <updated>1614174934419</updated>
       <workItem from="1614174937029" duration="41916000" />
+      <workItem from="1614961513249" duration="1444000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

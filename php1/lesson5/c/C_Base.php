@@ -1,24 +1,20 @@
-<?php
-//
-// Базовый контроллер сайта.
-//
-abstract class C_Base extends C_Controller
-{
-	protected $title;		// заголовок страницы
-	protected $content;		// содержание страницы
+<?php // Р‘Р°Р·РѕРІС‹Р№ РєРѕРЅС‚СЂРѕР»Р»РµСЂ СЃР°Р№С‚Р°.
+abstract class C_Base extends C_Controller{
+	protected $title;		// Р·Р°РіРѕР»РѕРІРѕРє СЃС‚СЂР°РЅРёС†С‹
+	protected $content;		// СЃРѕРґРµСЂР¶Р°РЅРёРµ СЃС‚СЂР°РЅРёС†С‹
     protected $keyWords;
 
 
      protected function before(){
 
-		$this->title = 'тест';
+		$this->title = 'С‚РµСЃС‚';
 		$this->content = '';
 		$this->keyWords="...";
 
 	}
 	
 	//
-	// Генерация базового шаблонаы
+	// Р“РµРЅРµСЂР°С†РёСЏ Р±Р°Р·РѕРІРѕРіРѕ С€Р°Р±Р»РѕРЅР°С‹
 	//	
 	public function render()
 	{

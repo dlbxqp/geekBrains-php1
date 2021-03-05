@@ -1,17 +1,14 @@
-<?php
-//
-// Êîíòòðîëëåð ñòðàíèöû ÷òåíèÿ.
-//
+<?php //ÐšÐ¾Ð½Ñ‚Ñ‚Ñ€Ð¾Ð»Ð»ÐµÑ€ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ Ñ‡Ñ‚ÐµÐ½Ð¸Ñ.
+
 include_once('m/model.php');
 
-class C_Page extends C_Base
-{
+class C_Page extends C_Base{
 	//
-	// íåò êîíñòðóêòîðà â C_BASE, ïîýòîìó óáðàëè êîíñòðóêòîð èç òåêóùåãî êëàññà
+	// Ð½ÐµÑ‚ ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€Ð° Ð² C_BASE, Ð¿Ð¾ÑÑ‚Ð¾Ð¼Ñƒ ÑƒÐ±Ñ€Ð°Ð»Ð¸ ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ Ð¸Ð· Ñ‚ÐµÐºÑƒÑ‰ÐµÐ³Ð¾ ÐºÐ»Ð°ÑÑÐ°
 	//
 	
 	public function action_index(){
-		$this->title .= '::×òåíèå';
+		$this->title .= '::Ð§Ñ‚ÐµÐ½Ð¸Ðµ';
 		$text = text_get();
 		//$today = date();
 		$this->content = $this->Template('v/v_index.php', array('text' => $text));	
@@ -19,7 +16,7 @@ class C_Page extends C_Base
 	
     
 	public function action_edit(){
-		$this->title .= '::Ðåäàêòèðîâàíèå';
+		$this->title .= '::Ð ÐµÐ´Ð°ÐºÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ';
 		
 		if($this->isPost())
 		{
