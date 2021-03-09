@@ -1,0 +1,1 @@
+<?phpsession_start();function __autoload($className){	require "c/{$className}.php";}if($_GET['c'] == 'user'){ $controller = new C_User(); if(!isset($_GET['action'])){  $_GET['action'] = 'authorisation'; }} else{ $controller = new C_Page(); if(!isset($_GET['action'])){  $_GET['action'] = 'read'; }}$controller->Request("action_{$_GET['action']}");
