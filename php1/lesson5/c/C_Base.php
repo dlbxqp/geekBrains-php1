@@ -1,25 +1,34 @@
-<?php // Базовый контроллер сайта.
+<?php //Базовый контроллер сайта.
+require 'm/M_User.php';
+
 abstract class C_Base extends C_Controller{
-	protected $title;		// заголовок страницы
-	protected $content;		// содержание страницы
-    protected $keyWords;
+	protected $title;
+	protected $content;
+ protected $keyWords;
 
-
-     protected function before(){
-
-		$this->title = 'тест';
-		$this->content = '';
-		$this->keyWords="...";
-
+ protected function before(){
+		$this->title = 'Сайт';
+		$this->content = 'Content';
+		$this->keyWords = "KeyWords";
 	}
 	
-	//
-	// Генерация базового шаблонаы
-	//	
-	public function render()
-	{
-		$vars = array('title' => $this->title, 'content' => $this->content,'kw' => $this->keyWords);
-		$page = $this->Template('v/v_main.php', $vars);				
+	public function render(){
+  $user = new M_User();
+  if(isset($_SESSION['currentUser'])){
+   $account = $user->account($_SESSION['currentUser']);
+  } else{
+   $account['Name'] = false;
+  }
+
+		$page = $this->Template('v/main.inc',
+   [
+    'title' => $this->title,
+    'content' => $this->content,
+    'kw' => $this->keyWords,
+    'userName' => $account['Name']
+   ]
+		);
+
 		echo $page;
 	}	
 }

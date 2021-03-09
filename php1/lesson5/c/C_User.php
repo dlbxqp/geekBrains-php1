@@ -1,25 +1,56 @@
-<?php //Конттроллер страницы чтения
-
-include_once('m/M_User.php');
-
+<?php
 class C_User extends C_Base{
-	//
-	// Конструктор.
-	//
-	
-	public function action_auth(){
-/*
-  $this-'>title .= '::Авторизация;
-        $user = new M_User();
-		$info = "Пользователь не авторизован";
-        if($_POST){
-            $login = $_POST['login'];
-            $info = $user->auth("log","past"));
-		    $this->content = $this->Template('v_auth.php', array('text' => $info));
+ private $user;
+
+ function __construct(){
+  $this->user = new M_User();
+ }
+
+ function action_registration(){
+  $this->title .= ' > Регистрация';
+
+  if($this->isPost()){
+   $result = $this->user->registration($_POST['name'], $_POST['login'], $_POST['password']);
+   $this->content = $this->Template(
+    'v/user/registration.inc',
+     [
+      'text' => (($result) ? 'Регистрация выполнена' : 'Ошибка при регистрации')
+     ]
+   );
+  } else{
+   $this->content = $this->Template('v/user/registration.inc');
+  }
+ }
+
+ function action_authorisation(){
+  $this->title .= ' > Авторизация';
+
+		if($this->isPost()){
+   $result = $this->user->authorisation($_POST['login'], $_POST['password']);
+   $this->content = $this->Template(
+    'v/user/authorisation.inc',
+    [
+     'text' => (($result) ? 'Авторизация выполнена' : 'Ошибка при авторизации')
+    ]
+   );
+		}	else{
+   $this->content = $this->Template('v/user/authorisation.inc');
 		}
-		else{
-		   $this->content = $this->Template('v/v_auth.php');
-		}
-*/
 	}
+
+ function action_account(){
+  $userData = $this->user->account($_SESSION['currentUser']);
+  $this->title .= ' > ' . $userData['Name'];
+  $this->content = $this->Template(
+   'v/user/account.inc',
+   [
+    'userName' => $userData['Name'],
+    'login' => $userData['Login']
+   ]
+  );
+ }
+
+ function action_logout(){
+  $this->user->logout();
+ }
 }

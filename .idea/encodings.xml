@@ -6,13 +6,20 @@
     <file url="file://$PROJECT_DIR$/php1/lesson5/c/C_Page.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php1/lesson5/c/C_User.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php1/lesson5/data/text.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/images/favicon.ico" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php1/lesson5/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/m/M_Page.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php1/lesson5/m/M_User.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/m/model.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/styles/main.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/styles/normalize.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/styles/project.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/v/main.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/v/page/edit.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/v/page/read.inc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php1/lesson5/v/style.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/v/v_edit.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/v/v_index.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/v/v_main.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/v/user/account.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/v/user/authorisation.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson5/v/user/registration.inc" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>

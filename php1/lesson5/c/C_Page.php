@@ -1,31 +1,33 @@
-<?php //Конттроллер страницы чтения.
+<?php
 
-include_once('m/model.php');
+require 'm/M_Page.php';
 
 class C_Page extends C_Base{
-	//
-	// нет конструктора в C_BASE, поэтому убрали конструктор из текущего класса
-	//
-	
-	public function action_index(){
-		$this->title .= '::Чтение';
-		$text = text_get();
-		//$today = date();
-		$this->content = $this->Template('v/v_index.php', array('text' => $text));	
+	public function action_read(){
+		$this->title .= ' > Чтение';
+		$text = getText_();
+		$this->content = $this->Template(
+		 'v/page/read.inc',
+   [
+    'text' => $text
+   ]
+  );
 	}
-	
-    
+
 	public function action_edit(){
-		$this->title .= '::Редактирование';
+		$this->title .= ' > Редактирование';
 		
-		if($this->isPost())
-		{
-			text_set($_POST['text']);
-			header('location: index.php');
-			exit();
+		if($this->isPost()){
+			setText_($_POST['text']);
+
+			header('location: /');	exit();
 		}
 		
-		$text = text_get();
-		$this->content = $this->Template('v/v_edit.php', array('text' => $text));		
+		$this->content = $this->Template(
+		 'v/page/edit.inc',
+   [
+    'text' => getText_()
+   ]
+  );
 	}
 }
