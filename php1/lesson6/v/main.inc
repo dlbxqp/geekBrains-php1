@@ -39,7 +39,7 @@ document.createElement('nav')
     <a href="?c=page&action=read">Читать текст</a>
     <a href="?c=page&action=edit">Править текст</a>
 <?php
-if(isset($_SESSION['currentUser'])){ //
+if(isset($_SESSION['currentUser'])){
  echo <<<HD
 <a href="?c=user&action=account">Личный кабинет</a>
 <a href="?c=user&action=logout">Выйти</a>
