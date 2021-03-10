@@ -20,30 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63656e97-3722-45fe-abf2-31c28cb21892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/m/M_Page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/styles/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/styles/project.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/v/main.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/v/page/edit.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/v/page/read.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/v/user/account.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/v/user/authorisation.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson5/v/user/registration.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/c/C_Base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/c/C_Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/c/C_Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/c/C_User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/m/M_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson5/m/M_User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/m/model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/v_edit.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/v_index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/v_main.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614174934419</updated>
       <workItem from="1614174937029" duration="41916000" />
-      <workItem from="1614961513249" duration="28520000" />
+      <workItem from="1614961513249" duration="33254000" />
     </task>
     <servers />
   </component>
