@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/php1/lesson5/c/C_Base.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/c/C_Controller.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/c/C_Page.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/c/C_User.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/data/text.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/images/favicon.ico" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/index.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/m/M_Page.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/m/M_User.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/styles/main.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/styles/normalize.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/styles/project.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/v/main.inc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/v/page/edit.inc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/v/page/read.inc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/php1/lesson5/v/style.css" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/v/user/account.inc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/v/user/authorisation.inc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/php1/lesson5/v/user/registration.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/c/C_Base.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/c/C_Controller.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/c/C_Page.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/c/C_User.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/data/text.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/images/favicon.ico" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/m/M_Page.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/m/M_User.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/styles/main.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/styles/normalize.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/styles/project.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/v/main.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/v/page/edit.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/v/page/read.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/v/user/account.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/v/user/authorisation.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson6/v/user/registration.inc" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
