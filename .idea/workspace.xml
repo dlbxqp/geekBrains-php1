@@ -19,44 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63656e97-3722-45fe-abf2-31c28cb21892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/c/C_Base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/c/C_Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/c/C_Page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/c/C_User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/data/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/m/M_Page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/m/M_User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/styles/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/styles/project.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/v/main.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/v/page/edit.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/v/page/read.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/v/user/account.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/v/user/authorisation.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson6/v/user/registration.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_Base.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_Page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/c/C_User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/data/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/m/M_Page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/m/M_User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/styles/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/styles/project.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/main.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/page/edit.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/page/read.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/user/account.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/user/authorisation.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson5/v/user/registration.inc" beforeDir="false" />
-    </list>
+    <list default="true" id="63656e97-3722-45fe-abf2-31c28cb21892" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614174934419</updated>
       <workItem from="1614174937029" duration="41916000" />
-      <workItem from="1614961513249" duration="33965000" />
+      <workItem from="1614961513249" duration="34411000" />
     </task>
     <servers />
   </component>
