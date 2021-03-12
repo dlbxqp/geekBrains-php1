@@ -8,15 +8,15 @@
   <meta name='theme-color' content='#404040'>
   <meta name='publisher-URL' content='/'>
 
-  <base href="/php1/lesson5/">
+  <base href="/php1/lesson6/">
 
 	 <title><?= $title?></title>
 
-  <link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon'>
+  <link rel='shortcut icon' href='./.images/favicon.ico' type='image/x-icon'>
 
-  <link rel='stylesheet' href='/styles/normalize.css'>
-  <link rel='stylesheet' href='/styles/main.css'>
-  <link rel='stylesheet' href='/styles/project.css'>
+  <link rel='stylesheet' href='./.styles/normalize.css'>
+  <link rel='stylesheet' href='./.styles/main.css'>
+  <link rel='stylesheet' href='./.styles/project.css'>
 
 <!--[if IE]>
   <script>
@@ -32,36 +32,54 @@ document.createElement('menu')
 document.createElement('nav')
   </script>
 <![endif]-->
+  <script src="//cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script><!--//unpkg.com/axios/dist/axios.min.js-->
  </head>
  <body>
   <header>
-   <menu id="main">
-    <a href="?c=page&action=read">Читать текст</a>
-    <a href="?c=page&action=edit">Править текст</a>
+   <section>
+    <nav>
+     <menu id="main">
+      <div>
+       <a href="?c=page&action=read">Читать текст</a>
+       <a href="?c=page&action=edit">Править текст</a>
+      </div>
+
+      <div>
+       <a href="?c=market&action=getOffers">Лавка</a>
+       <a href="?c=market&action=getBasket">Корзина</a>
+      </div>
+
+      <div>
 <?php
 if(isset($_SESSION['currentUser'])){
  echo <<<HD
-<a href="?c=user&action=account">Личный кабинет</a>
-<a href="?c=user&action=logout">Выйти</a>
+      <a href="?c=user&action=account">Личный кабинет</a>
+      <a href="?c=user&action=logout">Выйти ({$userName})</a>
 
 HD;
 } else{
  echo <<<HD
-<a href="?c=user&action=registration">Зарегестрироватьcя</a>
-<a href="?c=user&action=authorisation">Войти</a>
+      <a href="?c=user&action=registration">Зарегистрироватьcя</a>
+      <a href="?c=user&action=authorisation">Войти</a>
 
 HD;
 }
 ?>
-   </menu>
-
-   <h1><?= $title?></h1>
+      </div>
+     </menu>
+    </nav>
+   </section>
   </header>
 
   <main>
+   <article>
+    <h1><?= $title?></h1>
 <?= $content?>
+   </article>
   </main>
 
-  <footer>&copy;Все права защищены!</footer>
+  <footer>
+   <section>&copy; Все права защищены!</section>
+  </footer>
  </body>
 </html>

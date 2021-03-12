@@ -1,5 +1,5 @@
 <?php //Базовый класс контроллера.
-abstract class C_Controller{
+abstract class Controller{
 	protected abstract function render(); //Генерация внешнего шаблона
 	
 	protected abstract function before(); //Функция отрабатывающая до основного метода

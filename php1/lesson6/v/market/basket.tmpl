@@ -1,0 +1,56 @@
+<style>
+Table#offers{
+ width: 100%
+}
+Table#offers Tr > *{
+ border: 1px solid rgba(0, 0, 0, 0.08);
+ padding: 10px 20px
+}
+</style>
+
+<table id="offers">
+ <thead>
+  <tr>
+   <th>Название товара</th>
+   <th>Количество</th>
+   <th>Стоиомсть за еденицу</th>
+   <th>Итоговая стоимость</th>
+  </tr>
+ </thead>
+ <tbody>
+<?php
+$A = 0;
+$aA = [];
+foreach($aBasket as $aItem){
+ $A += $aItem['price'];
+ if(isset($aA[$aItem['name']])){
+  $aA[$aItem['name']]['count']++;
+  $aA[$aItem['name']]['totalPrice'] += $aItem['price'];
+  continue;
+ } else{
+  $aA[$aItem['name']]['count'] = 1;
+  $aA[$aItem['name']]['totalPrice'] = $aA[$aItem['name']]['price'] = $aItem['price'];
+ }
+}
+
+foreach($aA as $k => $v){
+
+?>
+ <tr>
+  <td><?= $k?></td>
+  <td><?= $v['count']?></td>
+  <td><?= $v['price']?></td>
+  <td><?= isset($v['totalPrice']) ? $v['totalPrice'] : $v['price']?></td>
+ </tr>
+<?php
+} //endforeach;
+?>
+ </tbody>
+ <tfoot>
+  <tr>
+   <td colspan="4">
+    <output><?= $A?></output>
+   </td>
+  </tr>
+ </tfoot>
+</table>

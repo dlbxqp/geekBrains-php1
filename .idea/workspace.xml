@@ -19,7 +19,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63656e97-3722-45fe-abf2-31c28cb21892" name="Default Changelist" comment="" />
+    <list default="true" id="63656e97-3722-45fe-abf2-31c28cb21892" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php1/lesson6/c/Market.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php1/lesson6/m/Market.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php1/lesson6/v/market/basket.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php1/lesson6/v/market/offer.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php1/lesson6/v/market/offers.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/c/C_Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/c/Base.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/c/C_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/c/Controller.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/c/C_Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/c/Page.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/c/C_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/c/User.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/data/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/.data/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/.images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/m/M_Page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/m/M_User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/.styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/styles/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/.styles/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/styles/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/.styles/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/main.inc" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/v/main.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/page/edit.inc" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/v/page/edit.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/page/read.inc" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/v/page/read.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/user/account.inc" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/v/user/account.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/user/authorisation.inc" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/v/user/authorisation.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/user/registration.inc" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson6/v/user/registration.tmpl" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,9 +84,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/php1/lesson5/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/php1/lesson6/v/market" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -69,10 +96,11 @@
       <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson6\v\market" />
+      <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson6\c" />
       <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson5\images" />
       <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson5\styles" />
       <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson4" />
-      <recent name="D:\GTV\Desktop\OSPanel\domains\main.geekBrains\php1\lesson3\styles" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +112,10 @@
       <option name="presentableId" value="Default" />
       <updated>1614174934419</updated>
       <workItem from="1614174937029" duration="41916000" />
-      <workItem from="1614961513249" duration="34411000" />
+      <workItem from="1614961513249" duration="59538000" />
+      <workItem from="1615566877296" duration="3719000" />
+      <workItem from="1615577040812" duration="426000" />
+      <workItem from="1615578040870" duration="4703000" />
     </task>
     <servers />
   </component>
@@ -102,51 +133,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="317" y="95" key="#CLI_Interpreters" timestamp="1614600396230">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="317" y="95" key="#CLI_Interpreters/0.0.1474.864@0.0.1474.864" timestamp="1614600396230" />
-    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614606640589">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1474.864@0.0.1474.864" timestamp="1614606640589" />
-    <state x="405" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615315342944">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="405" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1474.864@0.0.1474.864" timestamp="1615315342944" />
-    <state x="588" y="344" width="445" height="278" key="ComposerInitDialogKey" timestamp="1614600399964">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="588" y="344" width="445" height="278" key="ComposerInitDialogKey/0.0.1474.864@0.0.1474.864" timestamp="1614600399964" />
-    <state x="676" y="337" key="ComposerValidateDialog" timestamp="1614599025625">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="676" y="337" key="ComposerValidateDialog/0.0.1474.864@0.0.1474.864" timestamp="1614599025625" />
-    <state x="592" y="232" key="FileChooserDialogImpl" timestamp="1614600370248">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="592" y="232" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1614600370248" />
-    <state x="547" y="155" key="NewPhpClassDialog" timestamp="1613821660772">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="547" y="155" key="NewPhpClassDialog/0.0.1474.864@0.0.1474.864" timestamp="1613821660772" />
-    <state x="647" y="355" key="NewPhpFileDialog" timestamp="1615291466717">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="647" y="355" key="NewPhpFileDialog/0.0.1474.864@0.0.1474.864" timestamp="1615291466717" />
-    <state x="320" y="77" key="SettingsEditor" timestamp="1614606187630">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="320" y="77" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1614606187630" />
-    <state x="468" y="199" key="run.anything.popup" timestamp="1615319070796">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="468" y="199" key="run.anything.popup/0.0.1474.864@0.0.1474.864" timestamp="1615319070796" />
-    <state x="473" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1615287760241">
-      <screen x="0" y="0" width="1474" height="864" />
-    </state>
-    <state x="473" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1474.864@0.0.1474.864" timestamp="1615287760241" />
   </component>
 </project>

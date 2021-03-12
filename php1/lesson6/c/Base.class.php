@@ -1,13 +1,14 @@
 <?php //Базовый контроллер сайта.
-require 'm/M_User.php';
+require 'm/User.php';
 
-abstract class C_Base extends C_Controller{
+
+abstract class Base extends Controller{
 	protected $title;
 	protected $content;
  protected $keyWords;
 
  protected function before(){
-		$this->title = 'Сайт';
+		$this->title = 'GTV.Market';
 		$this->content = 'Content';
 		$this->keyWords = "KeyWords";
 	}
@@ -17,7 +18,7 @@ abstract class C_Base extends C_Controller{
   if(isset($_SESSION['currentUser'])){
    $account = $user->account($_SESSION['currentUser']);
   } else{
-   $account['Name'] = false;
+   $account['name'] = false;
   }
 
 		$page = $this->Template('v/main.inc',
@@ -25,7 +26,7 @@ abstract class C_Base extends C_Controller{
     'title' => $this->title,
     'content' => $this->content,
     'kw' => $this->keyWords,
-    'userName' => $account['Name']
+    'userName' => $account['name']
    ]
 		);
 

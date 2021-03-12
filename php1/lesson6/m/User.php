@@ -14,20 +14,20 @@ class M_User{
  function registration($name, $login, $password){
   $aUserData = $this->dbh->query("SELECT * FROM users WHERE Login = '{$login}'")->fetch();
   if(!$aUserData){
-   $aResult = $this->dbh->prepare("INSERT INTO `users` (`Id`, `Name`, `Login`, `Password`) VALUES (?, ?, ?, ?)");
-   $aResult->bindParam(1, $index);
+   $aResult = $this->dbh->prepare("INSERT INTO `users` (`id`, `name`, `login`, `password`) VALUES (?, ?, ?, ?)");
+   $aResult->bindParam(1, $id);
    $aResult->bindParam(2, $name);
    $aResult->bindParam(3, $login);
    $aResult->bindParam(4, $password);
 
-   $index = date('ymdHis');
+   $id = date('ymdHis');
    $password = md5($password);
    $aResult->execute();
 
    if($aResult){ //die('<pre>' . print_r($aResult) . '</pre>');
     return true;
    } else{
-    die('> ' . "$index, $name, $login, $password");
+    die('> ' . "$id, $name, $login, $password");
    }
   }
 
@@ -47,8 +47,8 @@ class M_User{
   return true;
  }
 
- function account($index){
-  return $this->dbh->query("SELECT * FROM users WHERE Id = '{$index}'")->fetch();
+ function account($id){
+  return $this->dbh->query("SELECT * FROM users WHERE Id = '{$id}'")->fetch();
  }
 
  function logout(){

@@ -1,15 +1,15 @@
 <?php
+require 'm/Page.php';
 
-require 'm/M_Page.php';
 
-class C_Page extends C_Base{
+class Page extends Base{
 	public function action_read(){
 		$this->title .= ' > Чтение';
-		$text = getText_();
+
 		$this->content = $this->Template(
-		 'v/page/read.inc',
+		 'v/page/read.tmpl',
    [
-    'text' => $text
+    'text' => getText_()
    ]
   );
 	}
@@ -20,11 +20,11 @@ class C_Page extends C_Base{
 		if($this->isPost()){
 			setText_($_POST['text']);
 
-			header('location: /');	exit();
+			header('location: ?c=page&action=read');	exit();
 		}
 		
 		$this->content = $this->Template(
-		 'v/page/edit.inc',
+		 'v/page/edit.tmpl',
    [
     'text' => getText_()
    ]

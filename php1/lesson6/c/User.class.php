@@ -1,5 +1,5 @@
 <?php
-class C_User extends C_Base{
+class User extends Base{
  private $user;
 
  function __construct(){
@@ -12,13 +12,13 @@ class C_User extends C_Base{
   if($this->isPost()){
    $result = $this->user->registration($_POST['name'], $_POST['login'], $_POST['password']);
    $this->content = $this->Template(
-    'v/user/registration.inc',
+    'v/user/registration.tmpl',
      [
       'text' => (($result) ? 'Регистрация выполнена' : 'Ошибка при регистрации')
      ]
    );
   } else{
-   $this->content = $this->Template('v/user/registration.inc');
+   $this->content = $this->Template('v/user/registration.tmpl');
   }
  }
 
@@ -28,13 +28,13 @@ class C_User extends C_Base{
 		if($this->isPost()){
    $result = $this->user->authorisation($_POST['login'], $_POST['password']);
    $this->content = $this->Template(
-    'v/user/authorisation.inc',
+    'v/user/authorisation.tmpl',
     [
      'text' => (($result) ? 'Авторизация выполнена' : 'Ошибка при авторизации')
     ]
    );
 		}	else{
-   $this->content = $this->Template('v/user/authorisation.inc');
+   $this->content = $this->Template('v/user/authorisation.tmpl');
 		}
 	}
 
@@ -42,7 +42,7 @@ class C_User extends C_Base{
   $userData = $this->user->account($_SESSION['currentUser']);
   $this->title .= ' > ' . $userData['Name'];
   $this->content = $this->Template(
-   'v/user/account.inc',
+   'v/user/account.tmpl',
    [
     'userName' => $userData['Name'],
     'login' => $userData['Login']
