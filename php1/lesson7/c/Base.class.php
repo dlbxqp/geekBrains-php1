@@ -21,7 +21,7 @@ abstract class Base extends Controller{
    $account['name'] = false;
   }
 
-		$page = $this->Template('v/main.inc',
+		$page = $this->Template('v/main.tmpl',
    [
     'title' => $this->title,
     'content' => $this->content,

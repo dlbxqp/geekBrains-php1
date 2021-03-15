@@ -21,17 +21,18 @@ class M_Market extends SQL{
  }
 
  function getBasket($userId){
-/*
-  return parent::SimpleSelect(
-   'basket',
-   'id_of_user',
-   $userId,
-   true
-  );
-*/
+  /*
+    return parent::SimpleSelect(
+     'basket',
+     'id_of_user',
+     $userId,
+     true
+    );
+  */
 
   return parent::Select("
 SELECT
+offers.id,
 offers.name,
 offers.price
 
@@ -42,17 +43,5 @@ WHERE basket.id_of_user = '{$userId}'
 
 ORDER BY basket.id_of_offer
   ");
- }
-
- function setBasket($userId, $offerId){
-  $id = date('ymdHis');
-  parent::Insert(
-   'basket',
-   [
-    'id' => $id,
-    'id_of_user' => $userId,
-    'id_of_offer' => $offerId
-   ]
-  );
  }
 }

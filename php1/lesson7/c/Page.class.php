@@ -19,8 +19,6 @@ class Page extends Base{
 		
 		if($this->isPost()){
 			setText_($_POST['text']);
-
-			header('location: ?c=page&action=read');	exit();
 		}
 		
 		$this->content = $this->Template(

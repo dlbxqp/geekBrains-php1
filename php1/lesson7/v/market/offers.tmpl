@@ -39,53 +39,21 @@ div#offers > * button.toBasket:hover{
 </div>
 
 <script>
-const getCookie = (name) => {
- const matches = document.cookie.match(new RegExp(
-  "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
- ))
-
- return matches ? decodeURIComponent(matches[1]) : undefined
-}
-
-const getUserId = () => {
- let userId = getCookie('userId')
-
- if(userId == undefined){ //guid
-  userId = Math.random(111111111111, 999999999999).toString(16).substring(2)
-/*
-  userId = () => {
-   const f = () => {
-    return Math.floor((1 + Math.random()) * 0x10000)
-    .toString(16)
-    .substring(1)
-   }
-
-   return f() + f() + '-' + f() + '-' + f() + '-' + f() + '-' + f() + f() + f()
-  }
-*/
- }
-
- document.cookie = `userId=${userId};max-age=` + (60 * 60 * 24 * 7 * 4)
-
-
- return userId
-}
-
 const cOffers = document.querySelectorAll('div#offers > *')
 Array.from(cOffers).forEach((offer) => {
- offer.querySelector('div#offers > * button.toBasket').addEventListener('click', (e) => { console.log('e.target', e.target)
+ offer.querySelector('div#offers > * button.toBasket').addEventListener('click', (e) => { //console.log('e.target', e.target)
   e.preventDefault()
 
   axios({
    method: 'post',
-   url: '?c=market&action=setBasket',
+   url: './m/ajax.php',
    data: {
+    'action': 'setBasket',
     'userId': getUserId(),
     'offerId': e.target.dataset.offerid
    }
   })
-  .then((response) => { //console.log('response.data', response.data)
-  })
+  .then(() => getBasketCount)
   .catch((error) => console.log(error))
  })
 })

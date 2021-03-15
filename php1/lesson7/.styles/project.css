@@ -47,6 +47,7 @@ Body > Header Menu A{
  border-bottom: 4px solid rgba(0, 0, 0, 0.08);
  padding: 10px 20px;
  text-decoration: none;
+ white-space: nowrap
 }
 Body > Header Menu A:hover{
  border-bottom-color: rgba(0, 200, 0, 0.2);

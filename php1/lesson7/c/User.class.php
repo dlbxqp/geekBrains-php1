@@ -40,12 +40,12 @@ class User extends Base{
 
  function action_account(){
   $userData = $this->user->account($_SESSION['currentUser']);
-  $this->title .= ' > ' . $userData['Name'];
+  $this->title .= ' > ' . $userData['name'];
   $this->content = $this->Template(
    'v/user/account.tmpl',
    [
-    'userName' => $userData['Name'],
-    'login' => $userData['Login']
+    'userName' => $userData['name'],
+    'login' => $userData['login']
    ]
   );
  }
