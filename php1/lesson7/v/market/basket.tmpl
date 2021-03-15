@@ -1,0 +1,165 @@
+<style>
+Table#offers{
+ width: 100%
+}
+Table#offers Tr > *{
+ border: 1px solid rgba(0, 0, 0, 0.08);
+ padding: 10px 20px;
+ white-space: nowrap
+}
+
+
+Table#offers Td > Div{
+ display: inline-flex;
+}
+
+Table#offers Div.buttons > *{
+ background-color: transparent;
+ border: none; border-radius: 50%;
+ padding: 4px 8px
+}
+Table#offers Div.buttons > *:nth-child(3){
+ transform: rotate(45deg)
+}
+Table#offers Div.buttons > *:nth-child(1):hover{
+ background-color: rgba(0, 240, 0, 0.08)
+}
+Table#offers Div.buttons > *:nth-child(2):hover{
+ background-color: rgba(0, 0, 240, 0.08)
+}
+Table#offers Div.buttons > *:nth-child(3):hover{
+ background-color: rgba(240, 0, 0, 0.08)
+}
+</style>
+
+<table id="offers">
+ <thead>
+  <tr>
+   <th>Название товара</th>
+   <th>Количество</th>
+   <th>Стоиомсть за еденицу</th>
+   <th>Итоговая стоимость</th>
+  </tr>
+ </thead>
+ <tbody>
+<?php
+$A = 0;
+$aA = [];
+foreach($aBasket as $aItem){
+ $A += $aItem['price'];
+ if(isset($aA[$aItem['name']])){
+  $aA[$aItem['name']]['count']++;
+  $aA[$aItem['name']]['totalPrice'] += $aItem['price'];
+  continue;
+ } else{
+  $aA[$aItem['name']]['count'] = 1;
+  $aA[$aItem['name']]['totalPrice'] = $aA[$aItem['name']]['price'] = $aItem['price'];
+  $aA[$aItem['name']]['offerId'] = $aItem['id'];
+ }
+}
+
+foreach($aA as $k => $v){
+?>
+ <tr data-offerId="<?= $v['offerId']?>">
+  <td><?= $k?></td>
+  <td>
+<?= $v['count']?>
+   <div class="buttons">
+    <button>+</button>
+    <button>-</button>
+    <button>+</button>
+   </div>
+  </td>
+  <td><?= $v['price']?></td>
+  <td><?= isset($v['totalPrice']) ? $v['totalPrice'] : $v['price']?></td>
+ </tr>
+<?php
+} //endforeach;
+?>
+ </tbody>
+ <tfoot>
+  <tr>
+   <td colspan="4">
+    <a href="?c=market&action=addOrder">Оформить заказ</a> на <output><?= $A?></output> руб.
+   </td>
+  </tr>
+ </tfoot>
+</table>
+
+
+<script>
+const inc = (offerId) => {
+ axios({
+  method: 'post',
+  url: './m/ajax.php',
+  data: {
+   'action': 'incBasket',
+   'userId': getUserId(),
+   offerId
+  }
+ })
+ .then((response) => {
+  window.location.reload()
+ })
+ .catch((error) => console.log(error))
+}
+//+
+const cInc = document.querySelectorAll('Table#offers Div.buttons > *:nth-child(1)')
+Array.from(cInc).forEach((v) => {
+ v.addEventListener('click', (e) => { //console.log('> ', e.target.closest('tr').dataset.offerid)
+  inc( e.target.closest('tr').dataset.offerid )
+ })
+})
+
+const dec = (offerId) => {
+ axios({
+  method: 'post',
+  url: './m/ajax.php',
+  data: {
+   'action': 'decBasket',
+   'userId': getUserId(),
+   offerId
+  }
+ })
+ .then((response) => {
+  window.location.reload()
+ })
+ .catch((error) => console.log(error))
+}
+//+
+const cDec = document.querySelectorAll('Table#offers Div.buttons > *:nth-child(2)')
+Array.from(cDec).forEach((v) => {
+ v.addEventListener('click', (e) => { //console.log('> ', e.target.closest('tr').dataset.offerid)
+  dec( e.target.closest('tr').dataset.offerid )
+ })
+})
+
+const del = (offerId) => {
+ axios({
+  method: 'post',
+  url: './m/ajax.php',
+  data: {
+   'action': 'deleteBasket',
+   'userId': getUserId(),
+   offerId
+  }
+ })
+ .then((response) => {
+  window.location.reload()
+ })
+ .catch((error) => console.log(error))
+}
+//+
+const cDel = document.querySelectorAll('Table#offers Div.buttons > *:nth-child(3)')
+Array.from(cDel).forEach((v) => {
+ v.addEventListener('click', (e) => { //console.log('> ', e.target.closest('tr').dataset.offerid)
+  del( e.target.closest('tr').dataset.offerid )
+ })
+})
+
+document.querySelector('tfoot a').addEventListener('click', (e) => {
+ e.preventDefault()
+
+ alert('To be continued!')
+})
+</script>
