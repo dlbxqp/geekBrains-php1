@@ -1,0 +1,15 @@
+{
+ "name": "vendor_name/main.geekBrains",
+ "description": "description",
+ "minimum-stability": "stable",
+ "license": "proprietary",
+ "authors": [
+  {
+   "name": "User1",
+   "email": "email@example.com"
+  }
+ ],
+ "require": {
+  "phpunit/phpunit": "9.0.0"
+ }
+}

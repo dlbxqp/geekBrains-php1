@@ -1,0 +1,60 @@
+<style>
+div#offers{
+ display: flex; flex-wrap: wrap; gap: 10px
+}
+
+div#offers > *{
+ border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 4px;
+ flex-basis: calc((100%  - (10px * 2)) / 3);
+ padding: 10px;
+ position: relative;
+ text-decoration: none
+}
+div#offers > *:hover{
+ background-color: rgba(0, 0, 0, 0.08)
+}
+
+div#offers > * button.toBasket{
+ background-color: rgba(0, 0, 0, 0.08);
+ border: none; border-radius: 50%;
+ padding: 2px 4.8px 0 4.8px;
+
+ color: white;
+ font-weight: bolder;
+ position: absolute; right: 4px; bottom: 4px;
+}
+div#offers > * button.toBasket:hover{
+ background-color: rgba(0, 0, 0, 0.2);
+}
+</style>
+
+<div id="offers">
+<?foreach($aOffers as $aOffer):?>
+ <a href="?c=market&action=getOffer&id=<?= $aOffer['id']?>">
+  <div><?= $aOffer['name']?></div>
+  <div><?= $aOffer['short_description']?></div>
+  <button data-offerId="<?= $aOffer['id']?>" class="toBasket">+</button>
+ </a>
+<?endforeach;?>
+</div>
+
+<script>
+const cOffers = document.querySelectorAll('div#offers > *')
+Array.from(cOffers).forEach((offer) => {
+ offer.querySelector('div#offers > * button.toBasket').addEventListener('click', (e) => { //console.log('e.target', e.target)
+  e.preventDefault()
+
+  axios({
+   method: 'post',
+   url: './m/ajax.php',
+   data: {
+    'action': 'setBasket',
+    'userId': getUserId(),
+    'offerId': e.target.dataset.offerid
+   }
+  })
+  .then(() => getBasketCount)
+  .catch((error) => console.log(error))
+ })
+})
+</script>

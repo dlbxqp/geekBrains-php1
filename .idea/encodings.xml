@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/php1/lesson5/v/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/.data/text.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/.images/favicon.ico" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/.styles/main.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/.styles/normalize.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/.styles/project.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/c/Base.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/c/Controller.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/c/Page.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/c/User.class.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/m/M_Page.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/m/M_User.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/m/Market.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/m/ajax.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/v/main.tmpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/v/market/basket.tmpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/v/market/offer.tmpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/v/market/offers.tmpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/v/page/edit.tmpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/v/page/read.tmpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/v/user/account.tmpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/v/user/authorisation.tmpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php1/lesson7/v/user/registration.tmpl" charset="UTF-8" />
+    <file url="PROJECT" charset="windows-1251" />
+  </component>
+</project>
