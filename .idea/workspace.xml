@@ -20,37 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63656e97-3722-45fe-abf2-31c28cb21892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson7/.scripts/getCookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson7/.scripts/getUserId.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php1/lesson7/m/ajax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/main.geekBrains.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/main.geekBrains.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/.data/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/.data/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/.images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/.images/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/.styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/.styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/.styles/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/.styles/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/.styles/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/.styles/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/c/Base.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/c/Base.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/c/Controller.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/c/Controller.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/c/Market.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/c/Market.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/c/Page.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/c/Page.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/c/User.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/c/User.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/m/Market.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/m/Market.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/m/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/m/Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/m/SQL.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/m/SQL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/m/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/m/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/main.inc" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/v/main.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/market/basket.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/v/market/basket.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/market/offer.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/v/market/offer.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/market/offers.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/v/market/offers.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/page/edit.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/v/page/edit.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/page/read.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/v/page/read.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/user/account.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/v/user/account.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/user/authorisation.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/v/user/authorisation.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php1/lesson6/v/user/registration.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/php1/lesson7/v/user/registration.tmpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/php1/lesson6/v/market" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -128,7 +98,8 @@
       <workItem from="1615566877296" duration="3719000" />
       <workItem from="1615577040812" duration="426000" />
       <workItem from="1615578040870" duration="6251000" />
-      <workItem from="1615789770147" duration="24600000" />
+      <workItem from="1615789770147" duration="27814000" />
+      <workItem from="1615884319517" duration="769000" />
     </task>
     <servers />
   </component>
